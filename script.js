@@ -19,7 +19,7 @@ function displayData() {
         function newsData(data) {
             console.log(data);
             for (counter = 0; counter < data.articles.length - 1; counter++) {
-                document.getElementById('NewsArticleList').innerHTML = document.getElementById('NewsArticleList').innerHTML + data.articles[counter].author;
+                document.getElementById('NewsArticleList').innerHTML = document.getElementById('NewsArticleList').innerHTML + '\n' + data.articles[counter].author;
             }
         }
     );
