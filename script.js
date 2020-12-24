@@ -3,6 +3,7 @@
 window.onload = displayData();
 
 function displayData() {
+    alert("hi");
     $.getJSON("http://api.weatherstack.com/current?access_key=0e283bebc652f3bf4bc6b1808ae76a85&query=Richmond Hill",
         function weatherData(data) {
             console.log(data);
