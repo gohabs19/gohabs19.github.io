@@ -23,4 +23,10 @@ function displayData() {
             }
         }
     );*/
+    $.getJSON("https://data.ontario.ca/api/3/action/datastore_search",
+        function COVIDData(data) {
+            console.log(data);
+            alert('Console haas API Data!');
+        }
+    );
 }
