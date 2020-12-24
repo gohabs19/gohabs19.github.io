@@ -15,12 +15,12 @@ function displayData() {
             document.getElementById('TorontoTemp').innerHTML = data.current.temperature;
         }
     );
-    $.getJSON("http://newsapi.org/v2/top-headlines?country=us&apiKey=165d34c7f4a9485d9953e37954a4afbc",
+    /*$.getJSON("http://newsapi.org/v2/top-headlines?country=us&apiKey=165d34c7f4a9485d9953e37954a4afbc",
         function newsData(data) {
             console.log(data);
             for (counter = 0; counter < data.articles.length - 1; counter++) {
                 document.getElementById('NewsArticleList').innerHTML = document.getElementById('NewsArticleList').innerHTML + '\n' + data.articles[counter].author;
             }
         }
-    );
+    );*/
 }
