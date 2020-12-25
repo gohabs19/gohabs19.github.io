@@ -32,7 +32,7 @@ h1  {
     font-weight: bold;
 }
 
-/*#covidstats   {
+#covidstats   {
     margin: auto;
     border-radius: 25px;
     background: #73D2DE;
@@ -40,7 +40,7 @@ h1  {
     width: 600px;
     height: 150px;
     text-align: center;
-}*/
+}
 
 #music   {
     margin: auto;
