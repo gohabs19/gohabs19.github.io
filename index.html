@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -14,23 +14,39 @@
 </head>
 <body>
     <h1>Welcome to your website, Georges</h1>
+    <table id = "master">
+    <tr><td>
     <table>
         <tr>
-            <td>
-                <p>The temperature in Toronto is:</p>
+            <td id="weather">
+                <img src = "weather.png" width = 70px>
+                <p>The temperature in <span id="location">Toronto</span> is:</p>
                 <p id="TorontoTemp"></p>
             </td>
-            <td>
-                <p>The temperature in Richmond Hill is:</p>
+            <td id = "weather">
+                <img src = "weather.png" width = 70px>
+                <p>The temperature in <span id="location">Richmond Hill</span> is:</p>
                 <p id="RichmondHillTemp"></p>
             </td>
         </tr>
-        <!--<tr>
-            <td>
+    </table>
+    <table>
+        <tr>
+            <td id="news">
+                <img src = "news.png" width = 50px>
                 <p>Top News Articles Today:</p>
                 <p id="NewsArticleList"></p>
             </td>
-        </tr>-->
+        </tr>
+    </table>
+    </td>
+    <td>
+    <table id="youtube">
+        <tr>
+            <td id="music"><a href="https://www.youtube.com/watch?v=9E6b3swbnWg&list=PLxvodScTx2RtAOoajGSu6ad4p8P8uXKQk"><img src = "mozart.png" width = 150px></a></td>
+        </tr>
+    </table>
+    </td></tr>
     </table>
     <script src="script.js"></script>
 </body>
