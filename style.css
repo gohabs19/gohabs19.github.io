@@ -32,12 +32,12 @@ h1  {
     font-weight: bold;
 }
 
-#news   {
+#covidstats   {
     margin: auto;
     border-radius: 25px;
     background: #73D2DE;
     padding: 10px;
-    width: 420px;
+    width: 600px;
     height: 150px;
     text-align: center;
 }
