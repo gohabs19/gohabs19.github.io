@@ -28,7 +28,8 @@ h1  {
 }
 
 #location   {
-    background: #FBB13C;
+    /*background: #FBB13C;*/
+    font-weight: bold;
 }
 
 #news   {
